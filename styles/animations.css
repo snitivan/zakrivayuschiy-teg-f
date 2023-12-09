@@ -52,6 +52,28 @@
   }
 }
 
+@-moz-keyframes menu_arrow {
+  from {
+    -mox-right: 95px;
+  }  
+
+  25% {
+    -mox-right: 96px;
+  }
+
+  50% {
+    -mox-right: 97px;
+  }
+
+  75% {
+    -mox-right: 98px;
+  }
+
+  to {
+    -mox-right: 99px;
+  }
+}
+
 @keyframes liked {
   from {
     scale: 1;
@@ -72,6 +94,15 @@
   }
   to {
     opacity: 0;
+  }
+}
+
+@-moz-keyframes sparks_animation {
+  from {
+    -moz-opacity: 1;
+  }
+  to {
+    -moz-opacity: 0;
   }
 }
 
