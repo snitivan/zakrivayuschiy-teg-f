@@ -621,7 +621,7 @@ dialog::backdrop {
 }
 
 .filter_1 {
-  filter: blur(5px);
+  filter: blur(2px);
 }
 
 .filter_2 {
