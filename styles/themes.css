@@ -6,7 +6,6 @@
 */
 
 :root.theme-dark {
-  --main_fonts: 'Inter-Variable', 'Arial', 'sans-serif';
   --main_fonts_weight_card_text: 465;
   --main_font_weight_card_title: 785;
   --background_color: #000;
@@ -23,7 +22,6 @@
 }
 
 :root.theme-light {
-  --main_fonts: 'Inter-Variable', 'Arial', 'sans-serif';
   --main_fonts_weight_card_text: 400;
   --main_font_weight_card_title: 700;
   --background_color: #FFF;
@@ -42,7 +40,6 @@
 @media (prefers-color-scheme: dark) {
   
   :root {
-    --main_fonts: 'Inter-Variable', 'Arial', 'sans-serif';
     --main_fonts_weight_card_text: 465;
     --main_font_weight_card_title: 785;
     --background_color: #000;

@@ -12,3 +12,83 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+
+@keyframes menu_button {
+  to {
+    opacity: 0.6;
+  }
+}
+
+@keyframes button_underline {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes menu_arrow {
+  from {
+    right: 95px;
+  }  
+
+  25% {
+    right: 96px;
+  }
+
+  50% {
+    right: 97px;
+  }
+
+  75% {
+    right: 98px;
+  }
+
+  to {
+    right: 99px;
+  }
+}
+
+@keyframes liked {
+  from {
+    scale: 1;
+  }  
+  
+  50% {
+    scale: 1.5;
+  }
+
+  to {
+    scale: 1;
+  }
+}
+
+@keyframes sparks_animation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes icon_border {
+  from {
+    border: 2px solid transparent;
+  }
+  to {
+    border: 2px solid var(--accent_color);
+  }
+}
+
+@keyframes like_save_btn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
