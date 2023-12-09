@@ -4,3 +4,57 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-dark {
+  --main_fonts: 'Inter-Variable', 'Arial', 'sans-serif';
+  --main_fonts_weight_card_text: 465;
+  --main_font_weight_card_title: 785;
+  --background_color: #000;
+  --accent_color: #00CC14;
+  --left_to_right_gradirent_first_color: #000;
+  --left_to_right_gradirent_second_color: transparent;
+  --top_to_bottom_gradirent_first_color: #007f0c;
+  --top_to_bottom_gradirent_second_color: #004306;
+  --contour_heart: #00CC14;
+  --heart_color: #FF0000;
+  --sparks: #FF0000;
+  --body_heart: #00CC14;
+  --animation_hover_color: #00CC14;
+}
+
+:root.theme-light {
+  --main_fonts: 'Inter-Variable', 'Arial', 'sans-serif';
+  --main_fonts_weight_card_text: 400;
+  --main_font_weight_card_title: 700;
+  --background_color: #FFF;
+  --accent_color: #000;
+  --left_to_right_gradirent_first_color: #d3d3d3;
+  --left_to_right_gradirent_second_color: transparent;
+  --top_to_bottom_gradirent_first_color: #e7e7e7;
+  --top_to_bottom_gradirent_second_color: #1a1a1a;
+  --contour_heart: #000;
+  --heart_color: #FF0000;
+  --sparks: #FF0000;
+  --body_heart: #000;
+  --animation_hover_color: #FFF;
+}
+
+@media (prefers-color-scheme: dark) {
+  
+  :root {
+    --main_fonts: 'Inter-Variable', 'Arial', 'sans-serif';
+    --main_fonts_weight_card_text: 465;
+    --main_font_weight_card_title: 785;
+    --background_color: #000;
+    --accent_color: #00CC14;
+    --left_to_right_gradirent_first_color: #000;
+    --left_to_right_gradirent_second_color: transparent;
+    --top_to_bottom_gradirent_first_color: #007f0c;
+    --top_to_bottom_gradirent_second_color: #004306;
+    --contour_heart: #00CC14;
+    --heart_color: #FF0000;
+    --sparks: #FF0000;
+    --body_heart: #00CC14;
+    --animation_hover_color: #00CC14;
+    }
+  }

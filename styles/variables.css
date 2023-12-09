@@ -1,1 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+  :root {
+    --main_fonts: 'Inter-Variable', 'Arial', 'sans-serif';
+    --accent_fonts: 'PressStart2P-Regular', 'Arial', 'sans-serif';
+    --main_fonts_weight_card_text: 400;
+    --main_font_weight_card_title: 700;
+    --background_color: #FFF;
+    --accent_color: #000;
+    --left_to_right_gradirent_first_color: #d3d3d3;
+    --left_to_right_gradirent_second_color: transparent;
+    --top_to_bottom_gradirent_first_color: #e7e7e7;
+    --top_to_bottom_gradirent_second_color: #1a1a1a;
+    --contour_heart: #000;
+    --heart_color: #FF0000;
+    --sparks: #FF0000;
+    --body_heart: #000;
+    --animation_hover_color: #FFF;
+  }
