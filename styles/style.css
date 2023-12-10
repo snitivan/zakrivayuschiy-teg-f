@@ -239,7 +239,7 @@
   padding-left: 23px;
   padding-right: 25px;
   padding-top: 25px;
-  padding-bottom: 18px;
+  padding-bottom: 24px;
   border: 2px solid var(--accent_color);
   font-variation-settings: "wght" 400;
   line-height: 21px;
@@ -256,6 +256,7 @@
 .card__icon-button {
   background-color: transparent;
   border: 2px solid transparent;
+  height: 38px;
 }
 
 .sparks {
@@ -328,7 +329,6 @@
 }
 
 .card__icon-button:focus {
-  border: 2px solid transparent;
   outline: none;
 }
 
