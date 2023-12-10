@@ -42,14 +42,14 @@
     var(--top_to_bottom_gradirent_first_color) 0.01%,
     var(--top_to_bottom_gradirent_second_color)
   );
-  background-size: fixed;
+  background-attachment: fixed;
 }
 
 .header {
   display: grid;
   width: 100%;
   padding-top: 102px;
-  padding-bottom: 116px;
+  padding-bottom: 104px;
 }
 
 .title_card {
@@ -158,6 +158,7 @@
   top: 0;
   opacity: 0.6;
   animation: menu_arrow 0.5s ease-in-out infinite alternate;
+  z-index: 1;
 }
 
 .main {
@@ -182,7 +183,7 @@
 }
 
 .last-card {
-  padding-bottom: 35px;
+  padding-bottom: 54px;
 }
 
 .card_title {
@@ -201,7 +202,6 @@
   border: 2px solid var(--accent_color);
   border-bottom: 0;
   margin: 0;
-  min-height: 696px;
 }
 
 .image {
@@ -517,7 +517,7 @@
   animation: like_save_btn 0.5s ease-in-out;
 }
 
-dialog::backdrop {
+.dialog_window::backdrop {
   background-color: rgba(0 0 0 / 0.3);
   backdrop-filter: blur(10px);
 }
@@ -563,9 +563,9 @@ dialog::backdrop {
   filter: drop-shadow(16px 16px 20px green) contrast(1.5);
 } 
 
-@media (width <= 375px) {
+@media (width <= 395px) {
   .card_title {
-    padding-left: 10px;
+    padding-right: 8px;
   }
   .card_text {
     padding-right: 25px;
@@ -573,6 +573,10 @@ dialog::backdrop {
 
   .comment_text {
     padding-bottom: 25px;
+  }
+
+  .image {
+    min-height: 371px;
   }
 
   .footer {
